@@ -4,24 +4,26 @@ import Container from "react-bootstrap/Card";
 import Row from "react-bootstrap/Card";
 import Col from "react-bootstrap/Card";
 import "./App.css";
-import ImageGallery from "./components/ImageGallery";
+import {
+  Route,
+  RouterProvider,
+  Routes,
+  createBrowserRouter,
+} from "react-router-dom";
+import Articles from "./components/Articles";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
+import MyBumpyTechJourney from "./components/MyBumpyTechJourney";
 
 function App() {
   return (
-    <div className="App container-fluid back">
-      <header className="App-header">
-        <Navbar />
-        <HeroBanner />
-      </header>
-      <body>
-        <ImageGallery />
-        <Container className="fluid">
-          <Row>
-            <Col className="fluid"></Col>
-          </Row>
-        </Container>
-      </body>
-    </div>
+    <Routes>
+      <Route path="/articles" element={<Articles />} />
+      <Route path="/Home" element={<Home />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/mybumpytechjourney" element={<MyBumpyTechJourney />} />
+    </Routes>
   );
 }
 
