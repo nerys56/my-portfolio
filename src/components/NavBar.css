@@ -1,0 +1,16 @@
+a {
+    color: #212529;;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fc9076;
+}
+
+a.csm-link {
+    color: white;
+}
+
+a.csm-link:hover {
+    color: #fc9076;
+}
