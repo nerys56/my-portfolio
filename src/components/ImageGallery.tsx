@@ -57,7 +57,7 @@ const imageItem = [
 export const ImageGallery: React.FC = () => {
   return (
     <>
-      <section id="work" className="block image-block">
+      <section id="work" className="img">
         <Container fluid="md">
           <div className="portfolio">Portfolio</div>
           <Row xs={12} am={6} md={4} lg={4} className="g-3">
