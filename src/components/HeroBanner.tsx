@@ -20,7 +20,8 @@ const HeroBanner: React.FC = () => {
             </div>
             </div>
 
-        <a href="/contact" className="cta-learn dark">Learn More</a><Button href="/contact" variant="dark" className="cta-talk light">
+        <a href="#work" className="cta-learn dark">Learn More</a>
+        <Button href="/contact" variant="dark" className="cta-talk light">
                 {" "}
                 Let's Talk
             </Button>

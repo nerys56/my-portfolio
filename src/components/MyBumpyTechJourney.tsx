@@ -7,7 +7,7 @@ const MyBumpyTechJourney = () => {
   return (
     <>
     <Container fluid className="full-width-container background-color">
-      <Menu />
+      <Menu csmLink={true} />
       <div className="artcile-bg">
         <div className="article-title">
           <h1 className="title">My (bumpy*) journey into tech</h1>
@@ -32,7 +32,7 @@ const MyBumpyTechJourney = () => {
     Bootstrap and MUI.<br/><br/>
 
     I've always been driven towards front-end development having some experience in the field,
-    mostly building WordPress websites up until now. Nothing against WordPress, it's a good
+    mostly building WordPress websites up until now. WordPress a good
     choice for clients who want to manage their own content, but my aim was to build something
     lightweight and functional, from scratch and with no plugins!<br/><br/>
 

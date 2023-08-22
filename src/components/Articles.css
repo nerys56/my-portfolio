@@ -24,10 +24,12 @@
 
 .title {
   color: white;
-  padding-left: 50px;
+
 }
 
-p.sub-heading {
-    padding-left: 50px;;
 
+
+
+a.csm-link {
+    color: white;
 }

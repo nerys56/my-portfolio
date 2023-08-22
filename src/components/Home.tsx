@@ -3,7 +3,6 @@ import { Col, Container, Navbar, Row } from "react-bootstrap";
 import HeroBanner from "./HeroBanner";
 import ImageGallery from "./ImageGallery";
 import "./Home.css";
-import Menu from "./NavBar";
 import Testimonials from "./Testimonials";
 import ContactForm from "./ContactForm";
 
